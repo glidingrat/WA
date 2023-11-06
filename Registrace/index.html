@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="cs">
+	<head>
+		<title>Race registration</title>
+		<meta charset="utf-8">
+
+        <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+              background-color: #dddddd;
+            }
+        </style>
+		
+	</head>
+	<body>
+		<header>
+            <h1>Race registration</h1>
+            <a href="#">Race map</a><br>
+            <a href="#">Video from previous year</a><br>
+            <a href="#">Contact to organizer</a>
+
+		</header>
+
+		<main>
+
+			<section>
+                <h2>Racer data</h2>
+                <form action="#" method="post">
+                   
+                        Name:<input type="text"><br>
+                        Surname:<input type="text"><br>
+                        Date of birth:<input type="date"><br>
+                        Address:<input type="text"><br>
+
+                        I am:<input type="radio" id="ama" name="experiences" value="amater" >
+                             <label for="ama">amater</label>
+                             <br>
+
+                             <input type="radio" id="pro" name="experiences" value="profesional" >
+                             <label for="pro">profesional by section</label>
+
+                             <select id="section" name="section">
+                                <option value="Driver">Driver</option>
+                                <option value="Mechanic">Mechanic </option>
+                                <option value="Race Engineer">Race Engineer</option>
+                                <option value="Spectator">Spectator</option>
+                              </select>
+
+                             <br>
+
+                        Phone:<input type="text"><br>
+                        Email:<input type="text"><br>
+
+                        
+                        <a href="#">race terms</a> agreement<input type="checkbox" id="terms" name="agreement" value="agree"><br>
+                        
+                   
+
+                    <input type="submit" value="REGISTER">
+                </form> 
+			</section>
+
+			<section>
+                <h2>Data</h2>
+            <table>
+                <tr><th>Name</th><th>Surname</th><th>Date of birth</th><th>Address</th><th>Phone</th><th>Email</th></tr>
+                <tr><td>Shanan</td><td>Coult</td><td>11/1/2002</td><td>4 Merrick Lane</td><td>840-127-530</td><td>scoult1@salon.com</td></tr>
+                <tr><td>Cullen</td><td>Bartalin</td><td>15/4/2004</td><td>7 Granby Lane</td><td>966-452-943</td><td>cbartalin2@tinyurl.com</td></tr> 
+                <tr><td>Jesus</td><td>Earngy</td><td>21/9/1997</td><td>3 North Road</td><td>200-466-409</td><td>jearngy3@wikia.com</td></tr> 
+                <tr><td>Quinn</td><td>Suller</td><td>14/5/1998</td><td>5 Sheridan Pass</td><td>212-809-163</td><td>qsuller4@oracle.com</td></tr> 
+                <tr><td>Camey</td><td>Clacey</td><td>24/9/1989</td><td>0489 Anthes Court</td><td>740-364-042</td><td>cclaceyb@yandex.com</td></tr> 
+                
+            </table> 
+			</section>
+
+		</main>
+
+		<aside>
+		</aside>
+
+		<footer>
+		</footer>
+	</body>
+</html>
